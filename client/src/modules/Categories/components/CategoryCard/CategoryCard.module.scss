@@ -1,0 +1,26 @@
+.categoryCard {
+  background-color: var(--background-color);
+  padding: 10px;
+  border-radius: 10px;
+  width: 120px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.icon {
+  width: 25px;
+}
+
+.name {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+

@@ -1,0 +1,39 @@
+.transactionCard {
+  display: flex;
+  background-color: var(--background-color);
+  border-radius: 10px;
+  padding: 7px;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.account {
+  font-size: 14px;
+  color: var(--color-input);
+  margin-left: 30px;
+}
+
+.amount {
+  align-self: center;
+  padding-right: 10px;
+}
+
+.icon {
+  width: 25px;
+  margin-bottom: 4px;
+}
+
+.red {
+  color: #d21010;
+  font-family: Roboto;
+  font-weight: 700;
+}
+
+.green {
+  color: green;
+}

@@ -1,0 +1,24 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 20%;
+}
+
+@media screen and (max-width: 1000px) {
+  .form {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .form {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .form {
+    width: 90%;
+  }
+}

@@ -1,0 +1,22 @@
+.notFound {
+  color: var(--color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  flex-direction: column;
+}
+
+.status {
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.message {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.back {
+  color: var(--color-input);
+}

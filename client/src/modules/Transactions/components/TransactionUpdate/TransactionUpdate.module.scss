@@ -1,0 +1,52 @@
+.date {
+  padding: 10px;
+  background-color: var(--main-color);
+  color: var(--color-input);
+  border: none;
+  border-radius: 10px;
+  font-family: Arial;
+  &:focus {
+    outline: none;
+  }
+  &::-webkit-calendar-picker-indicator {
+    background-color: var(--background-color);
+    border-radius: 5px;
+    padding: 3px;
+    color: white;
+  }
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inputs {
+  display: flex;
+  gap: 10px;
+}
+
+.selects {
+  display: flex;
+  gap: 10px;
+}
+
+.selectCategory {
+  width: 185px;
+}
+
+.selectAccount {
+  width: 170px;
+}
+
+.buttons {
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+}
+
+.basicButtons {
+  display: flex;
+  gap: 5px;
+}

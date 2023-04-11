@@ -1,0 +1,24 @@
+.transactionList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-right: 10px;
+  height: 390px;
+  overflow-y: auto;
+}
+
+.none {
+  font-size: 24px;
+  color: var(--color-input);
+  margin-top: 40px;
+  text-align: center;
+  opacity: 0.55;
+}
+
+.last {
+  height: 1px;
+  &::after {
+    content: "1";
+    font-size: 0;
+  }
+}

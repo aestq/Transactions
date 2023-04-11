@@ -1,0 +1,16 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  & button {
+    background-color: var(--background-color);
+  }
+}
+
+.last {
+  height: 1px;
+  &::after {
+    content: "c";
+    font-size: 0;
+  }
+}

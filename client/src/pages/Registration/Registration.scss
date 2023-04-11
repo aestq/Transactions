@@ -1,0 +1,13 @@
+.registration {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 60px;
+}
+
+@media screen and (max-width: 430px) {
+  .registration {
+    padding-top: 90px;
+  }
+}

@@ -1,0 +1,27 @@
+.modal {
+  background-color: var(--background-color);
+  position: absolute;
+  border-radius: 10px;
+  bottom: 0;
+  left: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  flex-direction: column;
+  z-index: 10000;
+  width: 680px;
+  height: 480px;
+  animation: open .15s;
+}
+
+@keyframes open {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+

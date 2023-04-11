@@ -1,0 +1,32 @@
+.flex {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.img {
+  width: 50px;
+}
+.text {
+  color: #fff;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+.sm {
+  font-size: 20px;
+}
+.md {
+  font-size: 30px;
+}
+.lg {
+  font-size: 40px;
+}
+
+.img_sm {
+  width: 30px;
+}
+.img_md {
+  width: 40px;
+}
+.img_lg {
+  width: 50px;
+}

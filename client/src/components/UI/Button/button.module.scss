@@ -1,0 +1,34 @@
+.button {
+  border: none;
+  background-color: var(--main-color);
+  color: var(--color);
+  border-radius: 7px;
+  padding: 10px 15px;
+  width: auto;
+  transition: background-color  .4s;
+  &:not([disabled]):hover {
+    box-shadow: 3px 3px 5px -5px rgba(0, 0, 0, 0.6);
+    background-color: var(--button-hover);
+  }
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sm {
+  padding: 8px 16px;
+  font-size: small;
+}
+
+.md {
+  padding: 10px 20px;
+}
+
+.lg {
+  padding: 10px 28px;
+  font-size: medium;
+}
+

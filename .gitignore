@@ -1,0 +1,19 @@
+client/node_modules
+client/dist
+client/dist-ssr
+client/*.local
+
+#server
+server/node_modules
+server/.env
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

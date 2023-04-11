@@ -1,0 +1,22 @@
+.plus {
+  width: 14px;
+}
+
+.search {
+  display: flex;
+  width: 98.25%;
+  margin-bottom: 10px;
+}
+
+.input {
+  background-color: var(--background-color);
+  border-radius: 10px 0 0 10px;
+  width: 100%;
+}
+.create {
+  background-color: var(--background-color);
+  border-radius: 0 10px 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

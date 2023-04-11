@@ -1,0 +1,27 @@
+.accountsCards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.create {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background-color);
+  height: 62px;
+  width: 160px;
+}
+
+.none {
+  font-size: 24px;
+  color: var(--color-input);
+  text-align: center;
+  opacity: 0.55;
+  margin-right: 20px;
+  align-self: center;
+}
+
+.createImg {
+  width: 24px;
+}

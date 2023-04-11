@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.page {
+  width: 900px;
+  background-color: var(--main-color);
+  height: 500px;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media screen and (max-width: 890px) {
+  .page {
+    border-radius: 0;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .container {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .page {
+    gap: 14px;
+    padding: 0;
+    height: 100%;
+    padding-bottom: 15px;
+  }
+  
+}
+
+
